@@ -1,7 +1,8 @@
 a=int(input())
-if (a>0):
-    print('Positive')
-elif (a==0):
-    print('Zero')
+if (a%2==0):
+    print('Even')
+elif (a<0):
+    print('Invalid')
 else:
-    print('Negative')
+    print('Odd')
+
